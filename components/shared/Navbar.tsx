@@ -48,6 +48,7 @@ const Nav = () => {
         <Navbar.Link href="events">Events</Navbar.Link>
         <Navbar.Link href="#">Services</Navbar.Link>
         <Navbar.Link href="research">Research</Navbar.Link>
+        <Navbar.Link href="team">Team</Navbar.Link>
         <Navbar.Link href="#">Contact</Navbar.Link>
       </Navbar.Collapse>
 
