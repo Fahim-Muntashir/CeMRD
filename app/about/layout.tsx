@@ -1,7 +1,7 @@
 import Nav from "@/components/shared/Navbar"
-import Header from "@/components/shared/Header"
 import '../globals.css';
-import Footer from "@/components/shared/Footer"
+import Footer from "@/components/shared/Footer";
+import Header from "@/components/shared/Header";
 
 export const metadata = {
   title: 'Next.js',
@@ -15,8 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
-      <body><Nav></Nav>
+      <body>
+        <Nav></Nav>
         <Header></Header>
         {children}
         <Footer></Footer>
