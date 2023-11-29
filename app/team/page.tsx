@@ -3,7 +3,7 @@ import React from 'react';
 const page = () => {
     return (
         <div>
-            <div class="p-16"><div class="p-8 bg-white shadow mt-24">  <div class="grid grid-cols-1 md:grid-cols-3">    <div class="grid grid-cols-3 text-center order-last md:order-first mt-20 md:mt-0">      <div>        <p class="font-bold text-gray-700 text-xl">222</p>        <p class="text-gray-400">Reasearch Paper</p>      </div>      <div>           <p class="font-bold text-gray-700 text-xl">300</p>        <p class="text-gray-400">Contribute</p>      </div>          <div>           <p class="font-bold text-gray-700 text-xl">200</p>        <p class="text-gray-400">Accepted Successfully</p>      </div>    </div>    <div class="relative">
+            <div class="p-16"><div class="p-8 bg-white shadow mt-24">  <div class="grid grid-cols-1 md:grid-cols-3">    <div class="grid grid-cols-3 text-center order-last md:order-first mt-20 md:mt-0">      <div>        <p class="font-bold text-gray-700 text-xl">222</p>        <p class="text-gray-400">Reasearch Paper</p>      </div>      <div>             <p class="font-bold text-gray-700 text-xl">300</p>        <p class="text-gray-400">Contribute</p>      </div>          <div>           <p class="font-bold text-gray-700 text-xl">200</p>        <p class="text-gray-400">Accepted Successfully</p>      </div>    </div>    <div class="relative">
 
                 <img className='w-48 h-48 bg-indigo-100 mx-auto rounded-full shadow-2xl absolute inset-x-0 top-0 -mt-24 flex items-center justify-center text-indigo-500 object-cover' src="https://i.ibb.co/QC44RFW/MSc-Defence-Propic.jpg" alt="" />
 
