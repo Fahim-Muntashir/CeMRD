@@ -22,7 +22,7 @@ const AdminSideNav = () => {
             <div className="p-4">
                 {/* Sidebar Header */}
                 <div className="flex justify-between items-center mb-4">
-                    <span className="text-2xl font-bold">Sidebar</span>
+                    <span className="text-2xl font-bold">Admin</span>
                     <button onClick={toggleSidebar} className="text-white">
                         {isSidebarOpen ? <FiX /> : <FiMenu />}
                     </button>
@@ -31,10 +31,17 @@ const AdminSideNav = () => {
                 {/* Sidebar Content */}
                 <div>
                     {/* Add your sidebar content here */}
-                    <ul>
-                        <li className="py-2">Item 1</li>
-                        <li className="py-2">Item 2</li>
-                        {/* Add more items as needed */}
+                    <img className='w-40 rounded-full bg-indigo-100 object-cover shadow-2xl inset-x-0  text-indigo-500 mx-auto' src="https://i.ibb.co/QC44RFW/MSc-Defence-Propic.jpg" alt="" />
+                    <ul className='text-center'>
+
+                        <li className="py-2 rounded bg-gray-500 px-4 "><a href="">Manage User</a></li>
+                        <li className="py-2"><a href="">Approve Research</a></li>
+                        <li className="py-2"><a href="">All Blog</a></li>
+                        <li className="py-2"><a href="">
+
+                        </a></li>
+                        <li className="py-2"><a href="">Manage User</a></li>
+
                     </ul>
                 </div>
 
